@@ -1,0 +1,58 @@
+@media screen and (max-device-width:800px){
+	p{
+		font-size:0.8em;
+	}
+	
+	#columnas, #ticopy{
+		font-size:1.1em;
+	}
+
+	h2{
+		font-size:0.9em;
+	}
+	
+	footer > p{
+		font-size:1.2em;
+	}
+}
+
+@media screen and (max-device-width:450px){
+	p{
+		font-size:0.6em;
+	}
+
+	h1{
+		margin-top: auto!important;
+	}
+
+	#columnas, #ticopy{
+		font-size:1.3em;
+	}
+
+	nav li a{
+		display:block;
+		padding:1%;
+		width:30%;
+		margin:auto;
+	}
+	
+	h2{
+		font-size:0.7em;
+	}
+
+	footer > p{
+		font-size:1.2em;
+	}
+}
+
+
+
+@media screen and (orientation:landscape){
+	nav{
+		display:inline;
+	}
+	h1{
+		margin:auto;
+	}
+}
+/*recargar pagina sin cache (ctrl + f5) para ver que es responsive en todas las medidas.*/

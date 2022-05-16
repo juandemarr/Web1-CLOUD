@@ -1,0 +1,167 @@
+@font-face{
+	font-family:"1942";
+	src:url(./../fuentes/1942.ttf)format("truetype");
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	padding:2%;
+	background-color:#FFE6CD;
+}
+
+#imgcab{
+	float:left;
+	width:13%;
+}
+
+h1{
+	font-family:"1942";
+	font-size:2.8em;
+	text-align:center;
+	float:left;
+	width:61%;
+	margin-top:1.9%;
+}
+
+#input{
+	padding:0.8%;
+	margin-top:3%;
+	width:17%;
+	float:left;
+}
+
+#lupa{
+	width:4%;
+	margin-top:2.8%;
+	float:right;
+	position:absolute;
+	margin-left:0.5%;
+}
+
+header{
+	overflow:hidden;
+}
+
+h2{
+	font-family:"1942";
+}
+
+nav{
+	text-align:center;
+	margin:3.1% auto 2.5%;
+	width:100%;
+	font-family:"1942";
+	font-size:1.6em;
+	display:inline-block;
+}
+
+nav li a{
+	padding:1%;
+}
+
+nav li a:hover {
+	background-color:rgba(190,59,13,0.3);
+	transition: all 0.5s ease-out;
+	border-radius:20px;
+}
+
+.menu{
+	margin-right:7%;
+	display:inline;
+}
+
+#galeria{
+	height:auto;
+	width:100%;
+	margin:2% auto 4%;
+}
+
+#samu{
+	width:45%;
+	float:left;
+	margin-right:2%;
+}
+
+article{
+	border:3px solid #FF380F;
+	padding:2%;
+	overflow:hidden;
+	text-align:justify;
+	margin-top:1%;
+	box-shadow:3px 3px 6px 1px #610B0B;
+}
+
+.negrita{
+	font-weight:bold;
+}
+
+li{
+	list-style-type:none;
+	padding-bottom:2%;
+}
+
+#columnas{
+	overflow:hidden;
+	padding-top:4%;
+}
+
+#ulizq{
+	border-right:3px solid black;
+}
+
+#ulcentro{
+	display: flex;
+	justify-content: center;
+}
+
+section section{
+	float:left;
+	width:31%;
+}
+
+#sepuko{
+	width:38%;
+	float:right;
+	padding-left:6%;
+	border-left:3px solid black;
+}
+
+#titulo{
+	padding-bottom:4%;
+}
+
+footer{
+	overflow:hidden;
+	padding-top:4%;
+}
+
+#bibliografia{
+	float:left;
+	width:25%;
+	
+}
+
+footer > .negrita{
+	font-family:"1942";
+	text-align:center;
+	width:75%;
+	float:right;
+	clear:left;
+}
+
+a{
+	color:#8A0808;
+}
+
+nav ul li a{
+	text-decoration:none;
+}
+
+a:visited{
+	color:#1C1C1C;
+}
